@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    background-color: aquamarine;
+    height: 52px;
+    padding: 13px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#navbar li a {
+    text-decoration: none;
+    /* color: white; */
+    padding: 13px 30px;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+
+#navbar li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+#navbar ul li a:hover{
+    font-size: 26px;
+}
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#introSection {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 64px 0px;
+    align-items: center;
+    background: center / cover no-repeat url("/static/georgia-de-lotz-JsQ6K5CfJ7s-unsplash\ \(1\).jpg");
+    height: 500px;
+    background-color: red;
+    font-size: 35px;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.small{
+    font-size: 20px;
+}
+#sponsorSection {
+    height: 300px;
+    background-color: rgb(109, 255, 248);
+}
+
+#missionSection h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 33px;
+}
+
+#missionSection{
+    height: 300px;
+    background-color: white;
+    margin: auto;
+    width: 80%;
+    display: block;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 24%;
+    height: 200px;
+    margin: 33px 55px;
+    display: inline-block;
+    justify-content: center;
+}
+#sponsorSection h3{
+    text-align: center;
+    font-size: 55px;
+    padding-top: 23px;
+}
+
+#logo img{
+    height: 36px;
+}
+#logo{
+    padding: 0px 326px 0 0;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-content{
+    padding: 0 24px;
+}
+
+.card-img{
+    height: 160px;
+    padding: 15px 0 0 0;
+}
+.card-img img{
+    height: inherit;
+}
+
+#sponsors{
+    max-width: 1021px;
+    margin: auto;
+    height: 161px;
+    padding: 23px 0 0 0;
+}
+
+.spImage{
+    height: 60%;
+    margin: 20px;
+}
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    height: 100px;
+    background-color: black;
+}

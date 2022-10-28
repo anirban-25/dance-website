@@ -1,0 +1,55 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top 
+        ul 
+            div#logo
+              img(src="/static/imgs/img3.png")
+              | ADA 
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class info]
+            li #[a(href="/") Contact]
+
+    section#introSection.highlight
+        div Welcome to Anriban's Dance Academy
+        div.small EAT SLEEP DANCE REPEAT
+
+    section#missionSection 
+      h2 Our mission
+      div.container1   
+        div.card
+          div.card-box
+            div.card-img
+              img(src="/static/imgs/img2.png")
+            div.card-content
+              | This is the best academy right here!!!   
+        div.card
+          div.card-box
+            div.card-img
+              img(src="/static/imgs/img2.png")
+            div.card-content
+              | This is the best academy right here!!!   
+        div.card
+          div.card-box
+            div.card-img
+              img(src="/static/imgs/img2.png")
+            div.card-content
+              | This is the best academy right here!!!   
+ 
+    section#sponsorSection 
+        h3 Our sponsors 
+        div#sponsors
+          img(src="/static/imgs/logo2.png", alt="Sponsor", class="spImage")
+          img(src="/static/imgs/logo3.png", alt="Sponsor", class="spImage")
+          img(src="/static/imgs/logo1.png", alt="Sponsor", class="spImage")
+          img(src="/static/imgs/logo5.png", alt="Sponsor", class="spImage")
+    footer#footer   
+        | Copyright © AnirbanDanceAcademy.com 
+        div all rights reserved 
+    script
+      include ../static/index.js

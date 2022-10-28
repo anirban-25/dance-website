@@ -1,0 +1,43 @@
+extend base.pug
+
+block scripts 
+    script(src='/static/index.js')
+block style 
+    style 
+        include ../static/style.css
+block content
+    
+
+    section#introSection.highlight
+        div Welcome to Anriban's Dance Academy
+        div.small EAT SLEEP DANCE REPEAT
+
+    section#missionSection 
+      h2 Our mission
+      div.container1   
+        div.card
+          div.card-box
+            div.card-img
+              img(src="/static/imgs/img2.png")
+            div.card-content
+              | This is the best academy right here!!!   
+        div.card
+          div.card-box
+            div.card-img
+              img(src="/static/imgs/img2.png")
+            div.card-content
+              | This is the best academy right here!!!   
+        div.card
+          div.card-box
+            div.card-img
+              img(src="/static/imgs/img2.png")
+            div.card-content
+              | This is the best academy right here!!!   
+ 
+    section#sponsorSection 
+        h3 Our sponsors 
+        div#sponsors
+          img(src="/static/imgs/logo2.png", alt="Sponsor", class="spImage")
+          img(src="/static/imgs/logo3.png", alt="Sponsor", class="spImage")
+          img(src="/static/imgs/logo1.png", alt="Sponsor", class="spImage")
+          img(src="/static/imgs/logo5.png", alt="Sponsor", class="spImage")
